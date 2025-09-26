@@ -8,7 +8,6 @@
 #define MAX_LINE_LENGTH 1024
 #define MAX_PATTERNS 100
 
-// Функция для проверки совпадения строки с шаблоном
 char *my_strdup(const char *s) {
   size_t len = strlen(s) + 1;
   char *copy = malloc(len);
